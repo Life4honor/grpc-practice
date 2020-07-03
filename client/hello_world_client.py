@@ -1,10 +1,8 @@
 from __future__ import print_function
 import logging
-
 import grpc
-
-import helloworld_pb2
-import helloworld_pb2_grpc
+import generated.helloworld_pb2 as helloworld_pb2
+import generated.helloworld_pb2_grpc as helloworld_pb2_grpc
 
 
 def run():
